@@ -12,7 +12,7 @@ const FooterStyle = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top: 0.5px solid #808fa4;
+    border-top: 0.5px solid ${colors.black60};
     padding-top: 5px;
     margin-top: 20px;
   }

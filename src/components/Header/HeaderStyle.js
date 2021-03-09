@@ -5,16 +5,16 @@ import { colors } from "styled";
 
 import { breakpoints } from "styled";
 
-const HeaderStyle = styled.div`
+const HeaderStyle = styled.header`
   background-image: url(${backgroundMobile});
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 20px 16px;
+  padding: 0 16px 20px 16px;
   border-bottom-right-radius: 23px;
   border-bottom-left-radius: 23px;
 
   H2 {
-    padding: 30px 0;
+    padding: 82px 0;
   }
 
   H2 .orange {
